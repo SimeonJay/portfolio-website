@@ -1,5 +1,6 @@
 import React from "react";
 import profilepic from "../assets/profpic.png";
+import CV from "../assets/CV.pdf"
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
@@ -72,7 +73,7 @@ const Hero = () => {
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-gray-200 rounded-xl"     
                     >
-                        <a href={profilepic} download> Download CV </a> 
+                        <a href={CV} download> Download CV </a> 
                     </motion.button>
         
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-gray-200 z-20">
