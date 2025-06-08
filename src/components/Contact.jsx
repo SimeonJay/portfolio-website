@@ -1,6 +1,4 @@
-import React, { useRef } from "react";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { motion } from "framer-motion";
+import React from "react";
 import Reveal from "./Reveal";
 import Swal from 'sweetalert2'
 
