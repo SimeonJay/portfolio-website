@@ -3,54 +3,45 @@ import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
 import project3 from "../assets/project3.png"
 import project4 from "../assets/project4.png"
-import project5 from "../assets/project5.png"
+
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
     {
       img: project1,
-      title: "Project #1",
-      description: "Fresh Fruits ecommerce Website",
+      title: "Fresh Fruits ecommerce Website",
+      description: "This is a responsive React-based online store for browsing and purchasing fresh fruits. Features include product listings, a shopping cart, and smooth checkout—styled with Tailwind CSS.",
       links: {
-        site: "https://fresh-fruits-ecommerce-website-fnoe-56ktxh9ft.vercel.app",
+        site: "https://fresh-fruits-ecommerce-website.vercel.app/",
         github: "https://github.com/SimeonJay/Fresh-fruits-ecommerce-website.git",
       },
     },
     {
       img: project2,
-      title: "Project #2",
-      description: "Ecommerce shopping cart",
+      title: "Crypto Tracking Website",
+      description: 'The Crypto Tracking Website is user-friendly platform that delivers real-time data on cryptocurrencies, helping users track market trends and key stats with ease.',
       links: {
-        site: "https://e-commerce-stores-j4vkgn7q8-simeonjays-projects.vercel.app",
-        github: "https://github.com/SimeonJay/e-commerce-store",
+        site: "https://crypto-tracking-website.vercel.app/",
+        github: "https://github.com/SimeonJay/crypto-tracking-website",
       },
     },
     {
       img: project3,
-      title: "Project #3",
-      description: "React Calculator app",
+      title: "Ecommerce shopping cart",
+      description: "A responsive online store built with React and Tailwind CSS, offering a range of products from electronics to fashion. Features include product browsing, a shopping cart, and a streamlined checkout process.",
       links: {
-        site: "https://react-calculator-appp-d75l-lgunhmyv8-simeonjays-projects.vercel.app",
-        github: "https://github.com/SimeonJay/react-calculator-appp",
+        site: "https://e-commerce-store-silk.vercel.app/",
+        github: "https://github.com/SimeonJay/e-commerce-store",
       },
     },
     {
       img: project4,
-      title: "Project #4",
-      description: "Responsive Landing page for Fifa23",
+      title: "React Calculator App",
+      description: "A simple, responsive calculator built with React and Next.js. Supports basic operations, keyboard input, and dark mode, styled with Tailwind CSS.",
       links: {
-        site: "https://responsive-website-for-fifa-23-n7i39aqsv-simeonjays-projects.vercel.app",
-        github: "https://github.com/SimeonJay/Responsive-website-for-FIFA-23",
-      },
-    },
-    {
-      img: project5,
-      title: "Project #5",
-      description: "Football predictions and Football news website",
-      links: {
-        site: "https://www.giantpredict.com/",
-        github: "#",
+        site: "https://react-calculator-appp-d75l-lgunhmyv8-simeonjays-projects.vercel.app/",
+        github: "https://github.com/SimeonJay/react-calculator-appp",
       },
     },
   ]
